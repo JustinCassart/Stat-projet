@@ -12,6 +12,7 @@ import scipy.optimize as sp_opt
 
 # Récupérer les fonctions définies à l'exo 3
 from Exercice3 import *
+import data_extractor
 
 if __name__ == "__main__":
     data_exo4 = np.array([
@@ -21,6 +22,7 @@ if __name__ == "__main__":
             [-0.51, 2.6, 2.4, 2.6, 2.59, 2.57],
             [-0.42, 2.65, 2.65, 2.64, 2.62, 2.61]])
 
+#     data_exo4 = data_extractor.extract("datas.dat")[0]
     # On calcule les paramètres optimaux avec les matrices
     mpopt = optimal_parameters(data_exo4)
     print("Mes paramètres optimaux sont :")

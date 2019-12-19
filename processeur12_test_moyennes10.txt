@@ -1,0 +1,10 @@
+10000 résultat = -23.019153605968164 seuil = 1.96 résultat < seuil : False
+20000 résultat = -30.760853588559687 seuil = 1.96 résultat < seuil : False
+30000 résultat = -38.45813640734029 seuil = 1.96 résultat < seuil : False
+40000 résultat = -44.472704929109945 seuil = 1.96 résultat < seuil : False
+50000 résultat = -51.86307984479751 seuil = 1.96 résultat < seuil : False
+60000 résultat = -54.86168218619359 seuil = 1.96 résultat < seuil : False
+70000 résultat = -56.282782725254116 seuil = 1.96 résultat < seuil : False
+80000 résultat = -63.400370651427274 seuil = 1.96 résultat < seuil : False
+90000 résultat = -68.03822756469465 seuil = 1.96 résultat < seuil : False
+100000 résultat = -69.59222921085784 seuil = 1.96 résultat < seuil : False

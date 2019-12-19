@@ -89,7 +89,8 @@ def optimal_parameters(data):
     # Calculer le vecteur avec les moyennes et celui avec les écart-types pour
     # la variable dépendante
     ym, yerr = compute_means_and_erros(data)
-
+    # print(ym)
+    # print(yerr)
     # Calculer le vecteur poids s'il y a une erreur connue sur les y
     if len(yerr):
         w = 1/(yerr**2)
@@ -97,6 +98,7 @@ def optimal_parameters(data):
     # couples (xi, yi)
     else:
         w = np.ones(n)
+    # print(w)
 
     # On va maintenant calculer la matrice A à inverser et la matrice des termes
     # indépendants b
@@ -105,6 +107,8 @@ def optimal_parameters(data):
 
     # On va faire une boucle pour ajouter un a un les termes de la somme
     # Voir les slides pour comprendre chacun des termes
+    # print(n)
+    # print(x)
     for i in range(n):
         A[0][0] += w[i]*x[i]*x[i]
         A[0][1] += w[i]*x[i]
@@ -113,6 +117,12 @@ def optimal_parameters(data):
         b[1] += w[i]*ym[i]
     # Les élements hors diagonale sont égaux
     A[1][0] = A[0][1]
+    print("A00", A[0][0])
+    print("A01", A[0][1])
+    print("A10", A[1][0])
+    print("A11", A[1][1])
+    print("b0", b[0])
+    print("b1", b[1])
     # La matrice inverse se calcule via le module d'algèbre linéaire de numpy
     # numpy.linalg avec la fonction inv
     # Le produit matriciel se fait avec la fonction numpy.dot

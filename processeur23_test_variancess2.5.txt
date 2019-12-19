@@ -1,0 +1,10 @@
+10000 S2 > S1 résultat = 1.1089839688294927 seuil = 1.11 résultat < seuil : True
+20000 S2 > S1 résultat = 1.2155951240707805 seuil = 1.11 résultat < seuil : False
+30000 S2 > S1 résultat = 1.1439633147484434 seuil = 1.11 résultat < seuil : False
+40000 S2 > S1 résultat = 1.2924989270594398 seuil = 1.11 résultat < seuil : False
+50000 S2 > S1 résultat = 1.1500486014063978 seuil = 1.11 résultat < seuil : False
+60000 S2 > S1 résultat = 1.088186821179632 seuil = 1.11 résultat < seuil : True
+70000 S1 > S2 résultat = 1.0050612689896326 seuil = 1.11 résultat < seuil : True
+80000 S2 > S1 résultat = 1.0490457768459833 seuil = 1.11 résultat < seuil : True
+90000 S2 > S1 résultat = 1.2702441947458916 seuil = 1.11 résultat < seuil : False
+100000 S2 > S1 résultat = 1.2879626906602382 seuil = 1.11 résultat < seuil : False
